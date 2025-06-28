@@ -120,8 +120,5 @@ var sites = [
 'video-119.html',
 'video-120.html',
 'video-121.html',
-'video-122.html',
-'video-123.html',
-'video-124.html',
-'video-125.html'
+'video-122.html'
 ]; function randomSite() {var i = parseInt(Math.random() * sites.length); location.href = sites[i];}
