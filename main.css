@@ -13,6 +13,6 @@ iframe{transform: translateX(-100%); -webkit-transform: translateX(-100%); anima
 #random{background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
 @media screen and (max-width:767px) {iframe[src*="rumble"] {width: 100%; height:100% !important;}}
 #USA{background: url("star.png") repeat-y 99.8%, linear-gradient(270deg, blue 20px, white  20px 40px, red 40px 60px, hsla(0, 0%, 0%, 0) 60px 80px);}
-html{cursor: crosshair; scroll-behavior: smooth;}
+html{cursor: crosshair; scroll-behavior: smooth; word-wrap: break-word;}
 @keyframes slide-in {100%{transform: translateX(0%);}}
 @-webkit-keyframes slide-in {100%{-webkit-transform: translateX(0%);}}
