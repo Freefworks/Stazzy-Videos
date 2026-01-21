@@ -1,0 +1,1 @@
+var x = 1; function switchImg() {if (x == 1) {document.getElementById("imgToSwitch").src = "32 Storyteller TP.png"; x++;} else if (x == 2) {document.getElementById("imgToSwitch").src = "33 Film Reel TP.png"; x++;} else if (x == 3) {document.getElementById("imgToSwitch").src = "6 Future Star TP.png"; x = 1;}}
